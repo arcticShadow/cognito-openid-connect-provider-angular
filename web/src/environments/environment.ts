@@ -7,7 +7,9 @@ import { secretConfig } from './secret';
 export const environment = {
   production: false,
   issuer: secretConfig.issuer,
-  clientId: secretConfig.clientId
+  clientId: secretConfig.clientId,
+  userPoolId: secretConfig.userPoolId,
+  identityPoolId: secretConfig.identityPoolId,
 };
 
 /*
